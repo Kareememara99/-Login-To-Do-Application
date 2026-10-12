@@ -1,9 +1,6 @@
 
 # Login & To-Do Application
 
-**Database Systems Lab 2 · Fall 2026**  
-**Alexandria National University · Faculty of Engineering**
-
 A secure, responsive task-management web application built with Flask and Microsoft SQL Server. Users can create an account, sign in, and manage a private to-do list through a clean dark-mode interface.
 
 ## Author
