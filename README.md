@@ -107,39 +107,39 @@ Keep `.env` private; commit `.env.example` with placeholder values only. Never u
 
 ## Screenshots
 
-The following screenshots demonstrate the application's interface and main features.
+The following screenshots show the application's registration and login pages, validation feedback, task management interface, responsive layout, and database results.
 
-### User Registration and Input Validation
+### Registration Page
 
-![User Registration and Input Validation](screenshots/Screenshot%202026-10-12%20164520.png)
+![Registration page](screenshots/Screenshot%202026-10-12%20164520.png)
 
-### User Login Interface
+### Registration Validation: Passwords Do Not Match
 
-![User Login Interface](screenshots/Screenshot%202026-10-12%20164621.png)
+![Registration validation showing that passwords do not match](screenshots/Screenshot%202026-10-12%20164621.png)
 
-### To-Do Dashboard
+### Registration Validation: Email Already Exists
 
-![To-Do Dashboard](screenshots/Screenshot%202026-10-12%20164818.png)
+![Registration validation showing that the email already exists](screenshots/Screenshot%202026-10-12%20164818.png)
 
-### Task Editing and Management
+### Login Page
 
-![Task Editing and Management](screenshots/Screenshot%202026-10-12%20164857.png)
+![Login page](screenshots/Screenshot%202026-10-12%20164857.png)
 
-### Completed and Pending Tasks
+### To-Do List with Completed and Open Tasks
 
-![Completed and Pending Tasks](screenshots/Screenshot%202026-10-12%20164925.png)
+![To-do list showing completed and open tasks](screenshots/Screenshot%202026-10-12%20164925.png)
 
-### Application Interface and Styling
+### Responsive To-Do Interface at Phone Width
 
-![Application Interface and Styling](screenshots/Screenshot%202026-10-12%20170552.png)
+![To-do interface shown at phone width](screenshots/Screenshot%202026-10-12%20170552.png)
 
-### Task List and Status Controls
+### Mobile Layout in Browser Developer Tools
 
-![Task List and Status Controls](screenshots/Screenshot%202026-10-12%20170713.png)
+![Mobile layout displayed in browser developer tools](screenshots/Screenshot%202026-10-12%20170713.png)
 
-### Responsive Application Layout
+### SQL Server Tables and Query Results
 
-![Responsive Application Layout](screenshots/Screenshot%202026-10-12%20171515.png)
+![SQL Server Management Studio showing the users and todos tables and query results](screenshots/Screenshot%202026-10-12%20171515.png)
 
 ## Database Design and Security
 
