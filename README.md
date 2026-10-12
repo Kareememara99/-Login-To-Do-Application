@@ -32,6 +32,39 @@ The application demonstrates the integration of a web interface, server-side log
 - **Responsive interface:** Consistent dark theme, validation feedback, completed-task styling, and an empty-list message.
 - **Bonus features:** Open-task counter and All / Open / Done filters.
 
+
+## Features
+
+### Authentication & Account Security
+- **User Registration:** Create an account using a name, email, password, and password confirmation.
+- **Secure Login & Logout:** Authenticate users, handle duplicate email addresses, display consistent login errors, and clear the session on logout.
+- **Password Hashing:** Store passwords securely using bcrypt hashes instead of plain-text passwords.
+- **Session-Based Access Control:** Restrict private pages and ensure each user can access only their own tasks.
+....
+### Task Management
+- **Create Tasks:** Add new tasks to a personal to-do list.
+- **Edit Tasks:** Update existing task titles.
+- **Task Status:** Mark tasks as completed or reopen them.
+- **Delete Tasks:** Remove tasks with a confirmation prompt.
+- **Task Ordering:** Display the newest tasks first.
+- **Input Validation:** Validate required fields and task-title length in both the browser and the server.
+
+### User Interface
+- **Dark Mode:** A consistent dark theme across the application.
+- **Responsive Design:** Adapt the interface to smaller screens and mobile-sized windows.
+- **Form Feedback:** Display validation errors and authentication messages clearly.
+- **Completed Task Styling:** Make completed tasks visually distinguishable.
+- **Empty State:** Display a friendly message when the user has no tasks.
+
+## Bonus Features
+
+In addition to the core requirements, the application includes the following enhancements:
+
+- **Open-Task Counter:** Display the number of tasks that are still open.
+- **Task Filters:** Filter the list by **All**, **Open**, or **Done** without reloading the page.
+- **Dark Mode:** Provide a consistent dark-themed interface for a more comfortable viewing experience.
+
+.....
 ## Project Structure
 
 ```text
