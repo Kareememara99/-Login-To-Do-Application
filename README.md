@@ -142,4 +142,3 @@ The application stores a bcrypt hash rather than the original password. This red
 
 ---
 
-*Prepared for Database Systems Lab 2 · Alexandria National University*
