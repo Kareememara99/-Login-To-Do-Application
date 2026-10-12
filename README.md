@@ -1,4 +1,3 @@
-
 # Login & To-Do Application
 
 A secure, responsive task-management web application built with Flask and Microsoft SQL Server. Users can create an account, sign in, and manage a private to-do list through a clean dark-mode interface.
@@ -21,6 +20,7 @@ The application demonstrates the integration of a web interface, server-side log
 | Frontend | HTML, CSS, JavaScript, Jinja |
 | Authentication | Flask sessions, bcrypt |
 | Configuration | `python-dotenv` |
+
 ## Features
 
 - **Authentication & Security:** Registration, login, logout, bcrypt password hashing, and session management.
@@ -32,6 +32,7 @@ The application demonstrates the integration of a web interface, server-side log
 
 - **Open-Task Counter:** Shows the number of unfinished tasks.
 - **Task Filters:** Filter tasks by All, Open, or Done without reloading the page.
+
 ## Project Structure
 
 ```text
@@ -39,6 +40,14 @@ Assignment_Lab2/
 ├── database/
 │   └── schema.sql
 ├── screenshots/
+│   ├── Screenshot 2026-10-12 164520.png
+│   ├── Screenshot 2026-10-12 164621.png
+│   ├── Screenshot 2026-10-12 164818.png
+│   ├── Screenshot 2026-10-12 164857.png
+│   ├── Screenshot 2026-10-12 164925.png
+│   ├── Screenshot 2026-10-12 170552.png
+│   ├── Screenshot 2026-10-12 170713.png
+│   └── Screenshot 2026-10-12 171515.png
 ├── static/
 │   └── style.css
 ├── templates/
@@ -98,23 +107,39 @@ Keep `.env` private; commit `.env.example` with placeholder values only. Never u
 
 ## Screenshots
 
-The following screenshots document the required application states. Save the images in the `screenshots/` directory using the filenames shown below.
+The following screenshots document the application's interface and functionality. The images are stored in the `screenshots/` directory.
 
-### Registration with validation errors
+### Screenshot 1
 
-![Registration validation](screenshots/Screenshot%202026-10-12%20164520.png)
+![Screenshot 1](screenshots/Screenshot%202026-10-12%20164520.png)
 
-### Login page
+### Screenshot 2
 
-![Login page](screenshots/login.png)
+![Screenshot 2](screenshots/Screenshot%202026-10-12%20164621.png)
 
-### To-do list with a completed task
+### Screenshot 3
 
-![To-do list with one completed task](screenshots/todos-one-done.png)
+![Screenshot 3](screenshots/Screenshot%202026-10-12%20164818.png)
 
-### Responsive layout at phone width
+### Screenshot 4
 
-![Mobile layout](screenshots/mobile-view.png)
+![Screenshot 4](screenshots/Screenshot%202026-10-12%20164857.png)
+
+### Screenshot 5
+
+![Screenshot 5](screenshots/Screenshot%202026-10-12%20164925.png)
+
+### Screenshot 6
+
+![Screenshot 6](screenshots/Screenshot%202026-10-12%20170552.png)
+
+### Screenshot 7
+
+![Screenshot 7](screenshots/Screenshot%202026-10-12%20170713.png)
+
+### Screenshot 8
+
+![Screenshot 8](screenshots/Screenshot%202026-10-12%20171515.png)
 
 ## Database Design and Security
 
@@ -139,6 +164,3 @@ The application stores a bcrypt hash rather than the original password. This red
 **4. If `name` is `NOT NULL`, why is a separate empty-name check necessary?**
 
 `NOT NULL` prevents SQL `NULL`, but an empty string (`''`) is still a value. Application-level validation is therefore needed to reject empty or whitespace-only names.
-
----
-
