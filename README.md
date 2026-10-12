@@ -129,10 +129,6 @@ The following screenshots show the application's registration and login pages, v
 
 ![To-do list showing completed and open tasks](screenshots/Screenshot%202026-10-12%20164925.png)
 
-### Responsive To-Do Interface at Phone Width
-
-![To-do interface shown at phone width](screenshots/Screenshot%202026-10-12%20170552.png)
-
 ### Mobile Layout in Browser Developer Tools
 
 ![Mobile layout displayed in browser developer tools](screenshots/Screenshot%202026-10-12%20170713.png)
