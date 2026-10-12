@@ -102,7 +102,7 @@ The following screenshots document the required application states. Save the ima
 
 ### Registration with validation errors
 
-![Registration validation](screenshots/register-validation.png)
+![Registration validation]("D:\college\level 3\Database\labs\Assignment_Lab2\screenshots\Screenshot 2026-10-12 164520.png")
 
 ### Login page
 
