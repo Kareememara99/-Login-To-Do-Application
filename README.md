@@ -21,39 +21,17 @@ The application demonstrates the integration of a web interface, server-side log
 | Frontend | HTML, CSS, JavaScript, Jinja |
 | Authentication | Flask sessions, bcrypt |
 | Configuration | `python-dotenv` |
-
 ## Features
 
-- **Account management:** Registration, login, logout, duplicate-email handling, and clear authentication errors.
-- **Password security:** Passwords are stored as bcrypt hashes rather than plain text.
-- **Private task lists:** Each signed-in user sees their own tasks, ordered newest first.
-- **Task management:** Add tasks, edit titles, mark tasks as done or open, and delete tasks with confirmation.
-- **Input validation:** Browser-side and server-side validation for required fields and task-title length.
-- **Responsive interface:** Consistent dark theme, validation feedback, completed-task styling, and an empty-list message.
-- **Bonus features:** Open-task counter and All / Open / Done filters.
-
-
-## Features
-
-### Authentication & Account Security
-- **User Registration:** Create an account using a name, email, password, and password confirmation.
-- **Secure Login & Logout:** Authenticate users, handle duplicate email addresses, display consistent login errors, and clear the session on logout.
-- **Password Hashing:** Store passwords securely using bcrypt hashes instead of plain-text passwords.
-- **Session-Based Access Control:** Restrict private pages and ensure each user can access only their own tasks.
-
-
-## Features
-
-- **Authentication:** Registration, login, logout, bcrypt password hashing, and session-based access control.
-- **Task Management:** Add, edit, complete/reopen, and delete tasks, displayed newest first.
+- **Authentication & Security:** Registration, login, logout, bcrypt password hashing, and session management.
+- **Task Management:** Add, edit, complete/reopen, and delete tasks, with private task lists sorted by newest first.
 - **Input Validation:** Client-side and server-side validation with clear error messages.
-- **Responsive UI:** Dark theme, mobile-friendly layout, completed-task styling, and empty-state feedback.
+- **Responsive UI:** Dark theme, mobile-friendly design, completed-task styling, and empty-state feedback.
 
 ## Bonus Features
 
-- **Open-Task Counter:** Displays the number of unfinished tasks.
+- **Open-Task Counter:** Shows the number of unfinished tasks.
 - **Task Filters:** Filter tasks by All, Open, or Done without reloading the page.
-
 ## Project Structure
 
 ```text
