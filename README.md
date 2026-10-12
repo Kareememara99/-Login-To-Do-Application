@@ -107,39 +107,39 @@ Keep `.env` private; commit `.env.example` with placeholder values only. Never u
 
 ## Screenshots
 
-The following screenshots document the application's interface and functionality. The images are stored in the `screenshots/` directory.
+The following screenshots demonstrate the application's interface and main features.
 
-### Screenshot 1
+### User Registration and Input Validation
 
-![Screenshot 1](screenshots/Screenshot%202026-10-12%20164520.png)
+![User Registration and Input Validation](screenshots/Screenshot%202026-10-12%20164520.png)
 
-### Screenshot 2
+### User Login Interface
 
-![Screenshot 2](screenshots/Screenshot%202026-10-12%20164621.png)
+![User Login Interface](screenshots/Screenshot%202026-10-12%20164621.png)
 
-### Screenshot 3
+### To-Do Dashboard
 
-![Screenshot 3](screenshots/Screenshot%202026-10-12%20164818.png)
+![To-Do Dashboard](screenshots/Screenshot%202026-10-12%20164818.png)
 
-### Screenshot 4
+### Task Editing and Management
 
-![Screenshot 4](screenshots/Screenshot%202026-10-12%20164857.png)
+![Task Editing and Management](screenshots/Screenshot%202026-10-12%20164857.png)
 
-### Screenshot 5
+### Completed and Pending Tasks
 
-![Screenshot 5](screenshots/Screenshot%202026-10-12%20164925.png)
+![Completed and Pending Tasks](screenshots/Screenshot%202026-10-12%20164925.png)
 
-### Screenshot 6
+### Application Interface and Styling
 
-![Screenshot 6](screenshots/Screenshot%202026-10-12%20170552.png)
+![Application Interface and Styling](screenshots/Screenshot%202026-10-12%20170552.png)
 
-### Screenshot 7
+### Task List and Status Controls
 
-![Screenshot 7](screenshots/Screenshot%202026-10-12%20170713.png)
+![Task List and Status Controls](screenshots/Screenshot%202026-10-12%20170713.png)
 
-### Screenshot 8
+### Responsive Application Layout
 
-![Screenshot 8](screenshots/Screenshot%202026-10-12%20171515.png)
+![Responsive Application Layout](screenshots/Screenshot%202026-10-12%20171515.png)
 
 ## Database Design and Security
 
